@@ -4,7 +4,7 @@ perl -0777 -i.original  -pe 's/###LOADER(.+)###END_LOADER//igs' ~/.zshrc
 
 
 # append loader script
-sed "s#\${BASE_PATH}#$PWD#g" loader_emplate.sh >> ~/.zshrc
+sed "s#\${BASE_PATH}#$PWD#g" loader_template.sh >> ~/.zshrc
 
 source ~/.zshrc
 
